@@ -8,8 +8,6 @@ namespace FibonacciSequence
 
         static void Main(string[] args)
         {
-            var random = new Random();
-
             Console.Write("Please Enter Number for Fibonacci Calculation : ");
             int number = int.Parse(Console.ReadLine());
             
